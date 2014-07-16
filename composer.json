@@ -22,7 +22,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.7-bugfix"
+      "dev-master": "1.7-dev"
     }
   },
   "repositories": [
