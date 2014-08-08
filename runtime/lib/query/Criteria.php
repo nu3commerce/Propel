@@ -984,7 +984,7 @@ class Criteria implements IteratorAggregate
             if (!$join->getRightTableAlias()) {
                 $join->setRightTableAlias($rightTableAlias);
             }
-            $criterion = $this->getNewCriterion(($leftTableAlias ? $leftTableAlias . '.' : ($leftTableName ? $leftTableName . '.' : '')) . '.' . $leftColumnName, $conditionClause, $comparison);
+            $criterion = $this->getNewCriterion(($leftTableAlias ? $leftTableAlias . '.' : ($leftTableName ? $leftTableName . '.' : '')) . $leftColumnName, $conditionClause, $comparison);
             if (null === $joinCondition) {
                 $joinCondition = $criterion;
             } else {
