@@ -1,6 +1,7 @@
 # Propel #
 
-Propel is an open-source Object-Relational Mapping (ORM) for PHP5.
+Propel is an open-source Object-Relational Mapping (ORM) for ~~PHP5~~ PHP7.2
+[WIP]
 
 [![Build Status](https://secure.travis-ci.org/propelorm/Propel.png?branch=master)](http://travis-ci.org/propelorm/Propel)
 
